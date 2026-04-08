@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "khjhbjhghjghjghjhjghjghj",
+    "description": "Esta entrada é para mostrar o baraldi boiola",
+    "duration": 100
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/d2a60a90-7166-4ebf-963b-4322f208f257
+Content-Type: application/json
+
+
+{
+    "title": "Nome de verdade",
+    "description": "Este é o segundo vídeo",
+    "duration": 100
+}
+
+###
+
+DELETE http://localhost:3333/videos/c4bd501a-95b0-4240-bfea-3951e0c8ddc2git
